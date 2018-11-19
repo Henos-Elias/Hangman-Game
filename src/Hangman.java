@@ -8,7 +8,7 @@ public class Hangman {
         System.out.println("You input a secret word or phrase and then guess without getting any letters wrong.");
         System.out.println("Have fun and good luck!!");
         int numberOfMisses = 0;
-        for (int i = 0; i < 15; i++){
+        for (int i = 0; i < 16; i++){
             hangManImage(i);
             {
                 int tries = 0;
